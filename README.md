@@ -26,7 +26,7 @@ npm run build     # type-check and build to dist/
 npm run og        # rebuild og.jpg, icons and web-sized photos from research/
 ```
 
-Pushing to `main` deploys to GitHub Pages via `.github/workflows/deploy.yml`. Set Pages → Source to "GitHub Actions" in the repo settings.
+Pushing to `main` or `claude/vibrant-tesla-ec0epa` (the current default branch) deploys to GitHub Pages via `.github/workflows/deploy.yml`. Pages → Source is set to "GitHub Actions".
 
 ## Research
 
