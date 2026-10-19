@@ -1,0 +1,1280 @@
+{
+ "menuData": {
+  "featured": [],
+  "specials": [],
+  "shooters": [
+   {
+    "id": "baby-guinness",
+    "name": "Baby Guinness",
+    "description": "$undefined",
+    "topOfGlass": "$undefined",
+    "chilled": "$undefined",
+    "glass": "double",
+    "layers": [
+     {
+      "id": "kahlua",
+      "liquid": {
+       "id": "kahlua",
+       "name": "Kahlúa",
+       "colorTop": "#3b2f2f",
+       "colorBottom": "$undefined",
+       "opacity": 0.98,
+       "density": 1.15
+      },
+      "volumeMl": 30,
+      "order": 0,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "baileys",
+      "liquid": {
+       "id": "baileys",
+       "name": "Baileys Irish Cream",
+       "colorTop": "#f3e1c4",
+       "colorBottom": "$undefined",
+       "opacity": 0.96,
+       "density": 1.08
+      },
+      "volumeMl": 15,
+      "order": 1,
+      "manualOrder": "$undefined"
+     }
+    ],
+    "garnishes": [
+     {
+      "id": "coffee-beans",
+      "type": "coffee-beans",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": true
+     },
+     {
+      "id": "marshmallow",
+      "type": "marshmallow",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": true
+     }
+    ],
+    "orderingMode": "manual",
+    "mixed": "$undefined",
+    "mixedBlend": "$undefined",
+    "mixedOpacity": "$undefined",
+    "tags": [
+     "coffee",
+     "creamy",
+     "sweet"
+    ]
+   },
+   {
+    "id": "lemon-drop",
+    "name": "Lemon Drop",
+    "description": "$undefined",
+    "topOfGlass": "$undefined",
+    "chilled": "$undefined",
+    "glass": "double",
+    "layers": [
+     {
+      "id": "vodka",
+      "liquid": {
+       "id": "vodka",
+       "name": "Vodka",
+       "colorTop": "#ffffff",
+       "colorBottom": "$undefined",
+       "opacity": 0.95,
+       "density": 0.95
+      },
+      "volumeMl": 40,
+      "order": 0,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "lemon-juice",
+      "liquid": {
+       "id": "lemon-juice",
+       "name": "Lemon Juice",
+       "colorTop": "#ffffcc",
+       "colorBottom": "$undefined",
+       "opacity": 0.9,
+       "density": 1.02
+      },
+      "volumeMl": 20,
+      "order": 1,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "simple-syrup",
+      "liquid": {
+       "id": "simple-syrup",
+       "name": "Simple Syrup",
+       "colorTop": "#fff9e6",
+       "colorBottom": "$undefined",
+       "opacity": 0.9,
+       "density": 1.03
+      },
+      "volumeMl": 15,
+      "order": 2,
+      "manualOrder": "$undefined"
+     }
+    ],
+    "garnishes": [
+     {
+      "id": "sugar-rim",
+      "type": "sugar-rim",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": "$undefined"
+     },
+     {
+      "id": "lemon-wheel",
+      "type": "fruit-slice",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": "$undefined"
+     }
+    ],
+    "orderingMode": "auto",
+    "mixed": "$undefined",
+    "mixedBlend": "$undefined",
+    "mixedOpacity": "$undefined",
+    "tags": [
+     "citrus",
+     "sweet",
+     "zesty"
+    ]
+   },
+   {
+    "id": "irish-affogato",
+    "name": "Irish Affogato",
+    "description": "$undefined",
+    "topOfGlass": "$undefined",
+    "chilled": "$undefined",
+    "glass": "tumbler",
+    "layers": [
+     {
+      "id": "irish-cream",
+      "liquid": {
+       "id": "irish-cream",
+       "name": "Irish Cream Liqueur",
+       "colorTop": "#f3e1c4",
+       "colorBottom": "$undefined",
+       "opacity": 0.96,
+       "density": 1.08
+      },
+      "volumeMl": 30,
+      "order": 0,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "espresso",
+      "liquid": {
+       "id": "espresso",
+       "name": "Espresso Coffee",
+       "colorTop": "#4b3621",
+       "colorBottom": "$undefined",
+       "opacity": 0.98,
+       "density": 1
+      },
+      "volumeMl": 60,
+      "order": 1,
+      "manualOrder": "$undefined"
+     }
+    ],
+    "garnishes": [
+     {
+      "id": "whipped-cream",
+      "type": "whipped-cream",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": "$undefined"
+     },
+     {
+      "id": "chocolate-shavings",
+      "type": "chocolate-shavings",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": "$undefined"
+     }
+    ],
+    "orderingMode": "auto",
+    "mixed": "$undefined",
+    "mixedBlend": "$undefined",
+    "mixedOpacity": "$undefined",
+    "tags": [
+     "coffee",
+     "creamy",
+     "dessert"
+    ]
+   },
+   {
+    "id": "sgroppino",
+    "name": "Sgroppino",
+    "description": "$undefined",
+    "topOfGlass": "$undefined",
+    "chilled": "$undefined",
+    "glass": "tumbler",
+    "layers": [
+     {
+      "id": "vodka",
+      "liquid": {
+       "id": "vodka",
+       "name": "Vodka",
+       "colorTop": "#ffffff",
+       "colorBottom": "$undefined",
+       "opacity": 0.95,
+       "density": 0.95
+      },
+      "volumeMl": 30,
+      "order": 0,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "lemon-sorbet",
+      "liquid": {
+       "id": "lemon-sorbet",
+       "name": "Lemon Sorbet",
+       "colorTop": "#ffffcc",
+       "colorBottom": "$undefined",
+       "opacity": 0.9,
+       "density": 1.02
+      },
+      "volumeMl": 60,
+      "order": 1,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "prosecco",
+      "liquid": {
+       "id": "prosecco",
+       "name": "Prosecco",
+       "colorTop": "#fff9e6",
+       "colorBottom": "$undefined",
+       "opacity": 0.9,
+       "density": 0.95
+      },
+      "volumeMl": 60,
+      "order": 2,
+      "manualOrder": "$undefined"
+     }
+    ],
+    "garnishes": [
+     {
+      "id": "lemon-zest",
+      "type": "citrus-zest",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": "$undefined"
+     }
+    ],
+    "orderingMode": "auto",
+    "mixed": "$undefined",
+    "mixedBlend": "$undefined",
+    "mixedOpacity": "$undefined",
+    "tags": [
+     "citrus",
+     "frozen",
+     "spritz"
+    ]
+   },
+   {
+    "id": "soco",
+    "name": "SoCo",
+    "description": "$undefined",
+    "topOfGlass": "$undefined",
+    "chilled": "$undefined",
+    "glass": "double",
+    "layers": [
+     {
+      "id": "southern-comfort",
+      "liquid": {
+       "id": "southern-comfort",
+       "name": "Southern Comfort",
+       "colorTop": "#ff9966",
+       "colorBottom": "$undefined",
+       "opacity": 0.95,
+       "density": 1.03
+      },
+      "volumeMl": 50,
+      "order": 0,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "lime-juice",
+      "liquid": {
+       "id": "lime-juice",
+       "name": "Lime Juice",
+       "colorTop": "#e6ffcc",
+       "colorBottom": "$undefined",
+       "opacity": 0.9,
+       "density": 1.02
+      },
+      "volumeMl": 10,
+      "order": 1,
+      "manualOrder": "$undefined"
+     }
+    ],
+    "garnishes": [
+     {
+      "id": "lime-wedge",
+      "type": "fruit-slice",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": "$undefined"
+     }
+    ],
+    "orderingMode": "auto",
+    "mixed": "$undefined",
+    "mixedBlend": "$undefined",
+    "mixedOpacity": "$undefined",
+    "tags": [
+     "sweet",
+     "citrus",
+     "fruity"
+    ]
+   },
+   {
+    "id": "blow-job",
+    "name": "Blow Job",
+    "description": "$undefined",
+    "topOfGlass": "$undefined",
+    "chilled": "$undefined",
+    "glass": "double",
+    "layers": [
+     {
+      "id": "amaretto",
+      "liquid": {
+       "id": "amaretto",
+       "name": "Amaretto Liqueur",
+       "colorTop": "#3b2f2f",
+       "colorBottom": "$undefined",
+       "opacity": 0.98,
+       "density": 1.15
+      },
+      "volumeMl": 25,
+      "order": 0,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "baileys",
+      "liquid": {
+       "id": "baileys",
+       "name": "Baileys Irish Cream",
+       "colorTop": "#f3e1c4",
+       "colorBottom": "$undefined",
+       "opacity": 0.96,
+       "density": 1.08
+      },
+      "volumeMl": 25,
+      "order": 1,
+      "manualOrder": "$undefined"
+     }
+    ],
+    "garnishes": [
+     {
+      "id": "whipped-cream",
+      "type": "whipped-cream",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": "$undefined"
+     },
+     {
+      "id": "chocolate-shavings",
+      "type": "chocolate-shavings",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": "$undefined"
+     }
+    ],
+    "orderingMode": "manual",
+    "mixed": "$undefined",
+    "mixedBlend": "$undefined",
+    "mixedOpacity": "$undefined",
+    "tags": [
+     "creamy",
+     "dessert",
+     "sweet"
+    ]
+   },
+   {
+    "id": "bazooka-joe",
+    "name": "Bazooka Joe",
+    "description": "$undefined",
+    "topOfGlass": "$undefined",
+    "chilled": "$undefined",
+    "glass": "double",
+    "layers": [
+     {
+      "id": "banana-liqueur",
+      "liquid": {
+       "id": "banana-liqueur",
+       "name": "Banana Liqueur",
+       "colorTop": "#ffcc66",
+       "colorBottom": "$undefined",
+       "opacity": 0.9,
+       "density": 1
+      },
+      "volumeMl": 12.5,
+      "order": 0,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "baileys",
+      "liquid": {
+       "id": "baileys",
+       "name": "Baileys Irish Cream",
+       "colorTop": "#ffffff",
+       "colorBottom": "$undefined",
+       "opacity": 0.95,
+       "density": 0.95
+      },
+      "volumeMl": 12.5,
+      "order": 1,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "blue-curacao",
+      "liquid": {
+       "id": "blue-curacao",
+       "name": "Blue Curaçao",
+       "colorTop": "#3399ff",
+       "colorBottom": "$undefined",
+       "opacity": 0.9,
+       "density": 1
+      },
+      "volumeMl": 12.5,
+      "order": 2,
+      "manualOrder": "$undefined"
+     }
+    ],
+    "garnishes": [
+     {
+      "id": "gummy-candy",
+      "type": "candy-garnish",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": "$undefined"
+     }
+    ],
+    "orderingMode": "auto",
+    "mixed": "$undefined",
+    "mixedBlend": "$undefined",
+    "mixedOpacity": "$undefined",
+    "tags": [
+     "banana",
+     "candy",
+     "creamy"
+    ]
+   },
+   {
+    "id": "bubble-gum",
+    "name": "Bubble Gum",
+    "description": "$undefined",
+    "topOfGlass": "$undefined",
+    "chilled": "$undefined",
+    "glass": "double",
+    "layers": [
+     {
+      "id": "bubblegum-liqueur",
+      "liquid": {
+       "id": "bubblegum-liqueur",
+       "name": "Bubblegum Liqueur",
+       "colorTop": "#ff99cc",
+       "colorBottom": "$undefined",
+       "opacity": 0.9,
+       "density": 1
+      },
+      "volumeMl": 30,
+      "order": 0,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "vodka",
+      "liquid": {
+       "id": "vodka",
+       "name": "Vodka",
+       "colorTop": "#ffffff",
+       "colorBottom": "$undefined",
+       "opacity": 0.95,
+       "density": 0.95
+      },
+      "volumeMl": 30,
+      "order": 1,
+      "manualOrder": "$undefined"
+     }
+    ],
+    "garnishes": [
+     {
+      "id": "gummy-candy",
+      "type": "candy-garnish",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": "$undefined"
+     }
+    ],
+    "orderingMode": "auto",
+    "mixed": "$undefined",
+    "mixedBlend": "$undefined",
+    "mixedOpacity": "$undefined",
+    "tags": [
+     "candy",
+     "sweet",
+     "fruity"
+    ]
+   },
+   {
+    "id": "electric-blue",
+    "name": "Electric Blue",
+    "description": "$undefined",
+    "topOfGlass": "$undefined",
+    "chilled": "$undefined",
+    "glass": "double",
+    "layers": [
+     {
+      "id": "blue-curacao",
+      "liquid": {
+       "id": "blue-curacao",
+       "name": "Blue Curacao",
+       "colorTop": "#3399ff",
+       "colorBottom": "$undefined",
+       "opacity": 0.95,
+       "density": 1.02
+      },
+      "volumeMl": 10,
+      "order": 0,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "chilli-vodka",
+      "liquid": {
+       "id": "chilli-vodka",
+       "name": "Chilli Vodka",
+       "colorTop": "#ffffcc",
+       "colorBottom": "$undefined",
+       "opacity": 0.9,
+       "density": 1.02
+      },
+      "volumeMl": 25,
+      "order": 1,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "lime-juice",
+      "liquid": {
+       "id": "lime-juice",
+       "name": "Lime Juice",
+       "colorTop": "#e6ffcc",
+       "colorBottom": "$undefined",
+       "opacity": 0.9,
+       "density": 1.02
+      },
+      "volumeMl": 10,
+      "order": 2,
+      "manualOrder": "$undefined"
+     }
+    ],
+    "garnishes": [
+     {
+      "id": "lime-whedge",
+      "type": "fruit-slice",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": "$undefined"
+     }
+    ],
+    "orderingMode": "auto",
+    "mixed": true,
+    "mixedBlend": 0.35,
+    "mixedOpacity": 0.9,
+    "tags": [
+     "citrus",
+     "bold",
+     "mixed"
+    ]
+   },
+   {
+    "id": "windrush-hurricane",
+    "name": "Windrush Hurricane",
+    "description": "$undefined",
+    "topOfGlass": "$undefined",
+    "chilled": "$undefined",
+    "glass": "double",
+    "layers": [
+     {
+      "id": "malibu",
+      "liquid": {
+       "id": "malibu",
+       "name": "Malibu Rum",
+       "colorTop": "#fff6e5",
+       "colorBottom": "#f0e1b8",
+       "opacity": 0.96,
+       "density": 0.95
+      },
+      "volumeMl": 30,
+      "order": 0,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "pineapple-liqueur",
+      "liquid": {
+       "id": "pineapple-liqueur",
+       "name": "Pineapple Liqueur",
+       "colorTop": "#ffff99",
+       "colorBottom": "$undefined",
+       "opacity": 0.95,
+       "density": 0.95
+      },
+      "volumeMl": 30,
+      "order": 1,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "wray-nephews",
+      "liquid": {
+       "id": "wray-nephews",
+       "name": "Wray Nephews Rum",
+       "colorTop": "#fff6e5",
+       "colorBottom": "$undefined",
+       "opacity": 0.96,
+       "density": 0.95
+      },
+      "volumeMl": 30,
+      "order": 2,
+      "manualOrder": "$undefined"
+     }
+    ],
+    "garnishes": [
+     {
+      "id": "salt-rim",
+      "type": "salt-rim",
+      "rotation": "$undefined",
+      "placement": "1/3 of rim",
+      "optional": "$undefined"
+     }
+    ],
+    "orderingMode": "auto",
+    "mixed": "$undefined",
+    "mixedBlend": "$undefined",
+    "mixedOpacity": "$undefined",
+    "tags": [
+     "tropical",
+     "rum",
+     "sweet"
+    ]
+   },
+   {
+    "id": "starman",
+    "name": "Starman",
+    "description": "$undefined",
+    "topOfGlass": "$undefined",
+    "chilled": "$undefined",
+    "glass": "double",
+    "layers": [
+     {
+      "id": "absinthe",
+      "liquid": {
+       "id": "absinthe",
+       "name": "Absinthe",
+       "colorTop": "#99cc66",
+       "colorBottom": "$undefined",
+       "opacity": 0.9,
+       "density": 1.03
+      },
+      "volumeMl": 30,
+      "order": 0,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "blue-curacao",
+      "liquid": {
+       "id": "blue-curacao",
+       "name": "Blue Curacao",
+       "colorTop": "#3399ff",
+       "colorBottom": "$undefined",
+       "opacity": 0.95,
+       "density": 1.02
+      },
+      "volumeMl": 30,
+      "order": 1,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "grenadine-syrup",
+      "liquid": {
+       "id": "grenadine-syrup",
+       "name": "Grenadine Syrup",
+       "colorTop": "#ff4d4d",
+       "colorBottom": "$undefined",
+       "opacity": 0.9,
+       "density": 1.18
+      },
+      "volumeMl": 10,
+      "order": 2,
+      "manualOrder": "$undefined"
+     }
+    ],
+    "garnishes": [
+     {
+      "id": "star-fruit-slice",
+      "type": "fruit-slice",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": "$undefined"
+     }
+    ],
+    "orderingMode": "manual",
+    "mixed": "$undefined",
+    "mixedBlend": "$undefined",
+    "mixedOpacity": "$undefined",
+    "tags": [
+     "herbal",
+     "layered",
+     "cosmic"
+    ]
+   },
+   {
+    "id": "traffic-light",
+    "name": "Traffic Light",
+    "description": "$undefined",
+    "topOfGlass": "$undefined",
+    "chilled": "$undefined",
+    "glass": "double",
+    "layers": [
+     {
+      "id": "grenadine-syrup",
+      "liquid": {
+       "id": "grenadine-syrup",
+       "name": "Grenadine Syrup",
+       "colorTop": "#ff4d4d",
+       "colorBottom": "$undefined",
+       "opacity": 0.9,
+       "density": 1.18
+      },
+      "volumeMl": 10,
+      "order": 0,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "midori",
+      "liquid": {
+       "id": "midori",
+       "name": "Midori Melon Liqueur",
+       "colorTop": "#99cc66",
+       "colorBottom": "$undefined",
+       "opacity": 0.9,
+       "density": 1.03
+      },
+      "volumeMl": 30,
+      "order": 1,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "blue-curacao",
+      "liquid": {
+       "id": "blue-curacao",
+       "name": "Blue Curacao",
+       "colorTop": "#3399ff",
+       "colorBottom": "$undefined",
+       "opacity": 0.95,
+       "density": 1.02
+      },
+      "volumeMl": 30,
+      "order": 2,
+      "manualOrder": "$undefined"
+     }
+    ],
+    "garnishes": [
+     {
+      "id": "cherry",
+      "type": "fruit-slice",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": "$undefined"
+     }
+    ],
+    "orderingMode": "auto",
+    "mixed": "$undefined",
+    "mixedBlend": "$undefined",
+    "mixedOpacity": "$undefined",
+    "tags": [
+     "fruity",
+     "layered",
+     "sweet"
+    ]
+   }
+  ],
+  "sips": [
+   {
+    "id": "bloody-mary",
+    "name": "Bloody Mary",
+    "description": "$undefined",
+    "topOfGlass": "$undefined",
+    "chilled": "$undefined",
+    "glass": "tumbler",
+    "layers": [
+     {
+      "id": "vodka",
+      "liquid": {
+       "id": "vodka",
+       "name": "Vodka",
+       "colorTop": "#ffffff",
+       "colorBottom": "$undefined",
+       "opacity": 0.95,
+       "density": 0.95
+      },
+      "volumeMl": 40,
+      "order": 0,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "tomato-juice",
+      "liquid": {
+       "id": "tomato-juice",
+       "name": "Tomato Juice",
+       "colorTop": "#ff4d4d",
+       "colorBottom": "$undefined",
+       "opacity": 0.9,
+       "density": 1.03
+      },
+      "volumeMl": 80,
+      "order": 1,
+      "manualOrder": "$undefined"
+     }
+    ],
+    "garnishes": [
+     {
+      "id": "celery-stick",
+      "type": "vegetable-stick",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": "$undefined"
+     },
+     {
+      "id": "lemon-wedge",
+      "type": "fruit-slice",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": "$undefined"
+     }
+    ],
+    "orderingMode": "auto",
+    "mixed": "$undefined",
+    "mixedBlend": "$undefined",
+    "mixedOpacity": "$undefined",
+    "tags": [
+     "savory",
+     "spicy",
+     "tomato",
+     "brunch"
+    ]
+   },
+   {
+    "id": "one-sip-martini",
+    "name": "One Sip Martini",
+    "description": "$undefined",
+    "topOfGlass": "$undefined",
+    "chilled": "$undefined",
+    "glass": "tumbler",
+    "layers": [
+     {
+      "id": "gin",
+      "liquid": {
+       "id": "gin",
+       "name": "Gin",
+       "colorTop": "#e6f0ff",
+       "colorBottom": "$undefined",
+       "opacity": 0.95,
+       "density": 0.95
+      },
+      "volumeMl": 60,
+      "order": 0,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "dry-vermouth",
+      "liquid": {
+       "id": "dry-vermouth",
+       "name": "Dry Vermouth",
+       "colorTop": "#f2e6d9",
+       "colorBottom": "$undefined",
+       "opacity": 0.9,
+       "density": 1
+      },
+      "volumeMl": 10,
+      "order": 1,
+      "manualOrder": "$undefined"
+     }
+    ],
+    "garnishes": [
+     {
+      "id": "olive-skewer",
+      "type": "olive-skewer",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": "$undefined"
+     }
+    ],
+    "orderingMode": "auto",
+    "mixed": "$undefined",
+    "mixedBlend": "$undefined",
+    "mixedOpacity": "$undefined",
+    "tags": [
+     "classic",
+     "herbal",
+     "boozy"
+    ]
+   }
+  ],
+  "shots": [
+   {
+    "id": "sambuca",
+    "name": "Sambuca",
+    "description": "$undefined",
+    "topOfGlass": "$undefined",
+    "chilled": "$undefined",
+    "glass": "double",
+    "layers": [
+     {
+      "id": "sambuca",
+      "liquid": {
+       "id": "sambuca",
+       "name": "Sambuca Liqueur",
+       "colorTop": "#ffffff",
+       "colorBottom": "$undefined",
+       "opacity": 0.9,
+       "density": 1
+      },
+      "volumeMl": 30,
+      "order": 0,
+      "manualOrder": "$undefined"
+     }
+    ],
+    "garnishes": [
+     {
+      "id": "coffee-beans",
+      "type": "coffee-beans",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": "$undefined"
+     },
+     {
+      "id": "marchmallow",
+      "type": "marchmallow",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": "$undefined"
+     }
+    ],
+    "orderingMode": "manual",
+    "mixed": "$undefined",
+    "mixedBlend": "$undefined",
+    "mixedOpacity": "$undefined",
+    "tags": [
+     "anise",
+     "sweet",
+     "coffee"
+    ]
+   },
+   {
+    "id": "jagerbomb",
+    "name": "Jägerbomb",
+    "description": "$undefined",
+    "topOfGlass": "$undefined",
+    "chilled": "$undefined",
+    "glass": "double",
+    "layers": [
+     {
+      "id": "jagermeister",
+      "liquid": {
+       "id": "jagermeister",
+       "name": "Jägermeister",
+       "colorTop": "#4b2e2e",
+       "colorBottom": "$undefined",
+       "opacity": 0.97,
+       "density": 1.2
+      },
+      "volumeMl": 30,
+      "order": 0,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "energy-drink",
+      "liquid": {
+       "id": "energy-drink",
+       "name": "Energy Drink",
+       "colorTop": "#99ccff",
+       "colorBottom": "$undefined",
+       "opacity": 0.8,
+       "density": 1
+      },
+      "volumeMl": 30,
+      "order": 1,
+      "manualOrder": "$undefined"
+     }
+    ],
+    "garnishes": [],
+    "orderingMode": "auto",
+    "mixed": "$undefined",
+    "mixedBlend": "$undefined",
+    "mixedOpacity": "$undefined",
+    "tags": [
+     "herbal",
+     "energy",
+     "party"
+    ]
+   },
+   {
+    "id": "tequila",
+    "name": "Tequila",
+    "description": "$undefined",
+    "topOfGlass": "$undefined",
+    "chilled": "$undefined",
+    "glass": "single",
+    "layers": [
+     {
+      "id": "tequila",
+      "liquid": {
+       "id": "tequila",
+       "name": "Tequila",
+       "colorTop": "#fff6e5",
+       "colorBottom": "#f0e1b8",
+       "opacity": 0.96,
+       "density": 0.95
+      },
+      "volumeMl": 50,
+      "order": 0,
+      "manualOrder": "$undefined"
+     }
+    ],
+    "garnishes": [
+     {
+      "id": "lime-wedge",
+      "type": "fruit-slice",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": "$undefined"
+     },
+     {
+      "id": "salt",
+      "type": "salt",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": "$undefined"
+     }
+    ],
+    "orderingMode": "auto",
+    "mixed": "$undefined",
+    "mixedBlend": "$undefined",
+    "mixedOpacity": "$undefined",
+    "tags": [
+     "citrus",
+     "salty",
+     "agave"
+    ]
+   }
+  ],
+  "wellness": [
+   {
+    "id": "turmeriki",
+    "name": "Turmeriki",
+    "description": "$undefined",
+    "topOfGlass": "$undefined",
+    "chilled": "$undefined",
+    "glass": "tumbler",
+    "layers": [
+     {
+      "id": "turmeric-shot",
+      "liquid": {
+       "id": "turmeric-shot",
+       "name": "Turmeric Shot",
+       "colorTop": "#ffcc66",
+       "colorBottom": "$undefined",
+       "opacity": 0.9,
+       "density": 1
+      },
+      "volumeMl": 50,
+      "order": 0,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "fireball",
+      "liquid": {
+       "id": "fireball",
+       "name": "Fireball Cinnamon Whiskey",
+       "colorTop": "#ff4d4d",
+       "colorBottom": "$undefined",
+       "opacity": 0.95,
+       "density": 0.95
+      },
+      "volumeMl": 25,
+      "order": 1,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "gin",
+      "liquid": {
+       "id": "gin",
+       "name": "Gin",
+       "colorTop": "#e6f0ff",
+       "colorBottom": "$undefined",
+       "opacity": 0.95,
+       "density": 0.95
+      },
+      "volumeMl": 25,
+      "order": 2,
+      "manualOrder": "$undefined"
+     }
+    ],
+    "garnishes": [],
+    "orderingMode": "auto",
+    "mixed": "$undefined",
+    "mixedBlend": "$undefined",
+    "mixedOpacity": "$undefined",
+    "tags": [
+     "wellness",
+     "spiced",
+     "citrus"
+    ]
+   },
+   {
+    "id": "ginger-irie",
+    "name": "Ginger Irie",
+    "description": "$undefined",
+    "topOfGlass": "$undefined",
+    "chilled": "$undefined",
+    "glass": "tumbler",
+    "layers": [
+     {
+      "id": "ginger-shot",
+      "liquid": {
+       "id": "ginger-shot",
+       "name": "Ginger Shot",
+       "colorTop": "#ffcc66",
+       "colorBottom": "$undefined",
+       "opacity": 0.9,
+       "density": 1
+      },
+      "volumeMl": 50,
+      "order": 0,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "coconut-liqueur",
+      "liquid": {
+       "id": "coconut-liqueur",
+       "name": "Coconut Liqueur",
+       "colorTop": "#ffffcc",
+       "colorBottom": "$undefined",
+       "opacity": 0.95,
+       "density": 0.95
+      },
+      "volumeMl": 25,
+      "order": 1,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "spiced-rum",
+      "liquid": {
+       "id": "spiced-rum",
+       "name": "Spiced Rum",
+       "colorTop": "#8b4513",
+       "colorBottom": "$undefined",
+       "opacity": 0.96,
+       "density": 0.95
+      },
+      "volumeMl": 25,
+      "order": 2,
+      "manualOrder": "$undefined"
+     }
+    ],
+    "garnishes": [],
+    "orderingMode": "auto",
+    "mixed": "$undefined",
+    "mixedBlend": "$undefined",
+    "mixedOpacity": "$undefined",
+    "tags": [
+     "wellness",
+     "ginger",
+     "tropical"
+    ]
+   },
+   {
+    "id": "veggie-mary",
+    "name": "Veggie Mary",
+    "description": "$undefined",
+    "topOfGlass": "$undefined",
+    "chilled": "$undefined",
+    "glass": "tumbler",
+    "layers": [
+     {
+      "id": "hendricks-gin",
+      "liquid": {
+       "id": "hendricks-gin",
+       "name": "Hendricks Gin",
+       "colorTop": "#e6f0ff",
+       "colorBottom": "$undefined",
+       "opacity": 0.95,
+       "density": 0.95
+      },
+      "volumeMl": 50,
+      "order": 0,
+      "manualOrder": "$undefined"
+     },
+     {
+      "id": "green-shot",
+      "liquid": {
+       "id": "green-shot",
+       "name": "Green Shot",
+       "colorTop": "#99cc66",
+       "colorBottom": "$undefined",
+       "opacity": 0.9,
+       "density": 1.03
+      },
+      "volumeMl": 50,
+      "order": 1,
+      "manualOrder": "$undefined"
+     }
+    ],
+    "garnishes": [
+     {
+      "id": "celery-stick",
+      "type": "vegetable-stick",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": "$undefined"
+     },
+     {
+      "id": "lemon-wedge",
+      "type": "fruit-slice",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": "$undefined"
+     },
+     {
+      "id": "olive-skewer",
+      "type": "olive-skewer",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": "$undefined"
+     },
+     {
+      "id": "green-pepper-tabasco",
+      "type": "hot-sauce",
+      "rotation": "$undefined",
+      "placement": "$undefined",
+      "optional": "$undefined"
+     }
+    ],
+    "orderingMode": "auto",
+    "mixed": "$undefined",
+    "mixedBlend": "$undefined",
+    "mixedOpacity": "$undefined",
+    "tags": [
+     "savory",
+     "herbal",
+     "brunch"
+    ]
+   }
+  ],
+  "hot": []
+ }
+}
